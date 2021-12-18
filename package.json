@@ -4,10 +4,10 @@
   "description": "Nexter webpage",
   "main": "index.js",
   "scripts": {
-    "sass-dev": "sass --watch --update --style=expanded main.scss:main.css",
+    "sass-dev": "sass --watch --update --style=expanded ./sass/main.scss:main.css",
     "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
   },
-  "author": "Jonas",
+  "author": "Hajk",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
